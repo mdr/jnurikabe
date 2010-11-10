@@ -4,6 +4,7 @@
   <artifactId>jnurikabe</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>JNurikabe</name>
+  <packaging>jar</packaging>
   <description>GUI and solver for the Nurikabe puzzle game</description>
   <dependencies>
   	<dependency>
