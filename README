@@ -1,0 +1,11 @@
+A Nurikabe implementation in Java from back in 2007, with some simple strategies for machine solution.
+
+Licence
+-------
+
+The project is dual licensed under GPL v2 and MIT license, with the exception of the images, which are GPL v2:
+
+  http://download.gna.org/freeciv/contrib/tilesets/bigtrident/bigtrident.README
+  http://download.gna.org/freeciv/contrib/tilesets/engels/engels.README 
+  http://download.gna.org/freeciv/contrib/tilesets/neotrident/NeoTrident.README
+

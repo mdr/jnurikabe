@@ -1,0 +1,29 @@
+* Can eliminate polyominoes if they block off water
+* Modes of NurikabeGridView: editable, highlight mode, etc
+* Better explanation for polyomino reasoner
+* Customise TryAllPoly strategy so that you can select filters
+* Quick checks to see if grid is invalid:
+** Do pools exist?
+** Is an island too large?
+** Are two islands connected?
+** Is an island too small?
+** Is water obviously disconnected?
+** Abstract NurikabeGridView: setGrid(), addCellClickedListener()
+** Make NurikabeGridView a JavaBean Swing Component as above
+** Need to honour insets
+* Analysis of which pools can be reached by which islands
+* Predictive strategy: look for all places where a land or water poly can expand; run strategies on all of them to get 
+a set of conclusions. Intersect conclusions.  
+
+== Done stuff ==
+[Done] UNKNOWN squares completely surrounded by water
+[Done] If land cell not connected to a number & only one neighbour which can be a land cell  => that neighbour must be 
+       a land cell 
+[Done] Water connectivity: if there are multiple water polyominoes, then for each water polyomino, is there a single
+       undetermined point in the boundary? if so, it's water
+[Done] Squares which cannot be reached by any number cell must be water
+[Done] Manhattan distance
+[Done] Could also iterate over all paths between a cell and a number; can eliminate some paths easily 
+[Done] If any cells are on the intersection of the boundaries of land polyominoes, then they must be water  
+
+
